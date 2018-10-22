@@ -49,6 +49,11 @@ public class TestController {
         return text;
     }
 
+    /**
+     * {"list":[1,2,3,"aa","你好", {"aa":"值"}],
+     * "map":{"key":[{"a":"a","1":"1"}]}
+     * }
+     */
     @ApiOperation("body/Map")
     @PostMapping("body/Map")
     public Object body(@RequestBody Map text) throws IOException {
