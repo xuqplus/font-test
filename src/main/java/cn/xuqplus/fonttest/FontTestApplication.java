@@ -1,13 +1,11 @@
 package cn.xuqplus.fonttest;
 
-import com.google.code.kaptcha.impl.DefaultKaptcha;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.Bean;
-
-import java.util.Properties;
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @SpringBootApplication
+@EnableSwagger2
 public class FontTestApplication {
 
     public static void main(String[] args) {
